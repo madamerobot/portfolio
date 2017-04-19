@@ -6,9 +6,73 @@
  * Made By MaterializeCSS.com
  */
 
+@font-face {
+     font-family: Fipps;
+     src: url(fonts/Fipps-Regular.otf);
+}
+
+ @font-face {
+    font-family: Refont;
+    src: url(fonts/Reefont-Light.otf);
+}
+
+.header.col.s12.light {
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navigation-pink {
+	background-color: #e8b0d4;
+	/*padding: 15px;*/
+}
+
 .icon-block {
-  padding: 0 15px;
+  padding: 30px;
+  background: white;
+  text-align: center;
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+/*.material-icons {
+ font-family: Fipps;
+ text-transform: uppercase;
+}*/
+
+.h-green {
+ color: #468c87;
+}
+
+.h-pink {
+ color: #d8abd7;
+}
+
+.h-lime {
+ color: #e6ea7c;
+}
+
+h1 {
+	font-family: Fipps;
+	text-transform: uppercase;
+	color: black;
+}
+
+h2 {
+	font-family: Fipps;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: Fipps;
+	text-transform: uppercase;
+}
+
+body {
+	background-image: url("../img/beach.png");
+}
+
+.footer-copyright {
+	font-family: Roboto;
+	text-transform: uppercase;
 }
