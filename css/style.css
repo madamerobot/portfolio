@@ -6,94 +6,19 @@
  * Made By MaterializeCSS.com
  */
 
+
+/*FONTS*/
 @font-face {
      font-family: Fipps;
-     src: url(fonts/Fipps-Regular.otf);
+     src: url("../fonts/Fipps-Regular.otf");
 }
 
- @font-face {
-    font-family: Refont;
-    src: url(fonts/Reefont-Light.otf);
+#light-font {
+	text-transform: uppercase;
+	font-weight: 300;
 }
 
-.houses {
-	background-image: url("../img/house.png");
-}
-
-.palms {
-	background-image: url("../img/palms.png");
-}
-
-.background-style {
-	background-image: url("../img/beach.png");
-}
-
-/*Header Button*/
-#header1 {
-	background-color: black;
-}
-/*Header Button*/
-#header2 {
-	background-color: black;
-}
-/*Header Button*/
-#header3 {
-	background-color: black;
-}
-
-/*Blue Button*/
-#strategy {
-	background-color: #468c87;
-}
-
-/*Pink Button*/
-#web {
-	background-color: #d8abd7;
-}
-/*Lime Button*/
-#test {
-	background-color: #e6ea7c;
-}
-
-#headerbtn {
-	text-align: center;
-}
-
-.header.col.s12.light {
-	background-color: white;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-.navigation-pink {
-	background-color: #e8b0d4;
-	/*padding: 15px;*/
-}
-
-.icon-block {
-  padding: 30px;
-  background: white;
-  text-align: center;
-}
-.icon-block .material-icons {
-	font-size: inherit;
-}
-/*.material-icons {
- font-family: Fipps;
- text-transform: uppercase;
-}*/
-
-.h-green {
- color: #468c87;
-}
-
-.h-pink {
- color: #d8abd7;
-}
-
-.h-lime {
- color: #e6ea7c;
-}
+/*STANDARD ELEMENTS*/
 
 h1 {
 	font-family: Fipps;
@@ -111,11 +36,80 @@ h3 {
 	text-transform: uppercase;
 }
 
-/*body {
-	background-image: url("../img/beach.png");
-}*/
+/*COLORS*/
 
-.footer-copyright {
-	font-family: Roboto;
-	text-transform: uppercase;
+.h-green {
+ color: #468c87;
+}
+
+.h-pink {
+ color: #d8abd7;
+}
+
+.background-pink {
+background-color: #e8b0d4;
+}
+
+.h-lime {
+ color: #e6ea7c;
+}
+
+/*BACKGROUND STYLES*/
+
+.palms {
+	background-image: url("../img/beach.png");
+}
+
+.background-style {
+	background-image: url("../img/palms.png");
+}
+
+/*INTERACTIVE HEADER BUTTONS (BLACK)*/
+
+#headerbtn {
+	text-align: center;
+}
+
+/*Header Button*/
+#header1 {
+	background-color: black;
+}
+/*Header Button*/
+#header2 {
+	background-color: black;
+}
+/*Header Button*/
+#header3 {
+	background-color: black;
+}
+
+/*ICON SECTION*/
+
+.icon-block {
+  padding: 30px;
+  background: white;
+  text-align: center;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/*BUTTONS ON PORTFOLIO CARDS*/
+
+/*Blue Button*/
+#strategy {
+	background-color: #468c87;
+}
+/*Pink Button*/
+#web {
+	background-color: #d8abd7;
+}
+/*Lime Button*/
+#test {
+	background-color: #e6ea7c;
+}
+
+/*FOOTER*/
+#footer {
+	text-align: center;
 }

@@ -1,3 +1,15 @@
+  //Initializing Parralax
+  $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+        
+ //Reload Page when clicking on logo
+ $(document).ready(function (){
+ $("#headertext").on("click", function (){
+ 	location.reload();
+  });
+ });
+
   //Change background on click
 $(document).ready(function () {
 	$("#header2").on("click", function (){
@@ -18,6 +30,8 @@ $(document).ready(function () {
 
 /*Hiding all content tiles & showing carousel*/
 $(document).ready(function () {
+
+	$("#all-cards").hide();
 
 	$("#header3").on("click", function (){
 		$("#all-cards").hide();
