@@ -16,6 +16,49 @@
     src: url(fonts/Reefont-Light.otf);
 }
 
+.houses {
+	background-image: url("../img/house.png");
+}
+
+.palms {
+	background-image: url("../img/palms.png");
+}
+
+.background-style {
+	background-image: url("../img/beach.png");
+}
+
+/*Header Button*/
+#header1 {
+	background-color: black;
+}
+/*Header Button*/
+#header2 {
+	background-color: black;
+}
+/*Header Button*/
+#header3 {
+	background-color: black;
+}
+
+/*Blue Button*/
+#strategy {
+	background-color: #468c87;
+}
+
+/*Pink Button*/
+#web {
+	background-color: #d8abd7;
+}
+/*Lime Button*/
+#test {
+	background-color: #e6ea7c;
+}
+
+#headerbtn {
+	text-align: center;
+}
+
 .header.col.s12.light {
 	background-color: white;
 	padding-top: 15px;
@@ -68,9 +111,9 @@ h3 {
 	text-transform: uppercase;
 }
 
-body {
+/*body {
 	background-image: url("../img/beach.png");
-}
+}*/
 
 .footer-copyright {
 	font-family: Roboto;

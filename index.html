@@ -11,7 +11,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
-<body>
+<body class="background-style">
   
   <!--Navigation-->
   <nav class="navigation-pink" role="navigation">
@@ -29,24 +29,33 @@
   </nav>
 
   <!--Intro Copy-->
+
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
+    <div id="intro" class="container">
       <br><br>
-      <h1 class="header center yellow-text">Things About Me</h1>
-      <div class="row center">
+      <h1 id="headertext" class="header center yellow-text">Things About Me</h1>
+
+      <!--<div class="row center">
         <h5 class="header col s12 light">If instead of settling, you decided to turn the world into chaos.</h5>
-      </div>
+      </div>-->
     </div>
   </div>
 
+  <!--Header Button to change header copy-->
+  <div id="headerbtn" class="container">
+  <a id="header1" class="waves-effect waves-light btn-large">Give me a better headline</a>
+    <a id="header2" class="waves-effect waves-light btn-large">Give me a better background</a>
+      <a id="header3" class="waves-effect waves-light btn-large">Give me a weird picture</a>
+  </div>
 
-  <div class="container">
-    <div class="section">
+  <!--Container div being used to get content to 80% sceensize-->
+  <div class="container"> 
 
-      <!--   Icon Section   -->
+  <!--   Icon Section   -->
+  <div id="icon-row" class="section">
       <div class="row">
 
-       <div class="col s12 m4">
+       <div id="strategy-tile" class="col s12 m4">
           <div class="icon-block">
             <h3 class="h-green">Plan</h3>
             <h5 class="center">Digital Strategy</h5>
@@ -58,7 +67,7 @@
         </div><!-- <div class="col s12 m4">-->
 
 
-        <div class="col s12 m4">
+        <div id="code-tile" class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text">
             <!--<i id="material-icons-b" class="material-icons">Code</i></h2>-->
@@ -70,7 +79,7 @@
           </div><!--<div class="icon-block">-->
         </div><!-- <div class="col s12 m4">-->
 
-        <div class="col s12 m4">
+        <div id="test-tile" class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text">
             <h3 class="h-lime">Test</h3>
@@ -88,12 +97,13 @@
 
     <!--CARDS-->
 
-    <!--CARD WRAPPER-->
-    <div class="section">
+    <div id="all-cards" class="section">
       <div class="container">
        <div class="row">
+
+    <!--BLUE CARDS (STRATEGY)-->
     
-    <!--CARD NO 1-->
+     <!--CARD NO 1-->
     <div class="col s12 m4"> 
     <div id="card1" class="card"> 
     <div class="card-image waves-effect waves-block waves-light">
@@ -154,34 +164,162 @@
      </div><!--<div class="col s4"> -->
     </div><!-- <div class="card">-->
 
-  </div> <!--<div class="row">-->
-  </div><<!--<div class="container">-->
-  </div><!--<div class="section">-->
+   <!--PINK CARDS (CODE)-->
+    
+    <!--CARD NO 4-->
+    <div class="col s12 m4"> 
+    <div id="card4" class="card"> 
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="img/pink.png">
+    </div>
 
-    <!--<div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light yellow">Download CV</a>
-      </div>-->
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">JavaScript<i class="material-icons right">more_vert</i></span>
+      <!--<p><a href="#">This is a link</a></p>-->
+    </div>
+
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+
+     </div><!--<div class="col s4"> -->
+    </div><!-- <div class="card">-->
+
+    <!--CARD NO 5-->
+
+    <div class="col s12 m4"> 
+    <div id="card5" class="card"> 
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="img/pink.png">
+    </div>
+
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">CSS and HTML<i class="material-icons right">more_vert</i></span>
+      <!--<p><a href="#">This is a link</a></p>-->
+    </div>
+
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+
+     </div><!--<div class="col s4"> -->
+    </div><!-- <div class="card">-->
+
+    <!--CARD NO 6-->
+    <div class="col s12 m4"> 
+    <div id="card6" class="card"> 
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="img/pink.png">
+    </div>
+
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Bootstrap<i class="material-icons right">more_vert</i></span>
+      <!--<p><a href="#">This is a link</a></p>-->
+    </div>
+
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+
+     </div><!--<div class="col s4"> -->
+    </div><!-- <div class="card">-->
+
+       <!--LIME CARDS (USER CENTRICITY)-->
+
+    <!--CARD NO 7-->
+    <div class="col s12 m4"> 
+    <div id="card7" class="card"> 
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="img/lime.png">
+    </div>
+
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">SCRUM Certificate<i class="material-icons right">more_vert</i></span>
+      <!--<p><a href="#">This is a link</a></p>-->
+    </div>
+
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+
+     </div><!--<div class="col s4"> -->
+    </div><!-- <div class="card">-->
+
+    <!--CARD NO 8-->
+
+    <div class="col s12 m4"> 
+    <div id="card8" class="card"> 
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="img/lime.png">
+    </div>
+
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Focus Groups<i class="material-icons right">more_vert</i></span>
+      <!--<p><a href="#">This is a link</a></p>-->
+    </div>
+
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+
+     </div><!--<div class="col s4"> -->
+    </div><!-- <div class="card">-->
+
+    <!--CARD NO 9-->
+    <div class="col s12 m4"> 
+    <div id="card9" class="card"> 
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="img/lime.png">
+    </div>
+
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Analytics<i class="material-icons right">more_vert</i></span>
+      <!--<p><a href="#">This is a link</a></p>-->
+    </div>
+
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+
+     </div><!-- <div class="card">-->
+       </div><!--<div class="col s12 m4"> -->
+
+  </div> <!--<div class="row">-->
+
+  </div><<!--<div class="container">-->
+  </div><!--<div id="all-cards" class="section">-->
+
+  <!--IMAGE CAROUSEL-->
+
+   <div id="carousel" class="section">
+     <div class="container">
+
+      <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!"><img src="img/gallery1.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="img/gallery2.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="img/gallery3.jpg"></a>
+      </div>
+
+          </div><!--<div class="container">-->
+      </div><!--<div class="section">-->
 
       <!--FOOTER PART-->
 
-    <div class="section">
+    <div id="footer" class="section">
 
  <footer class="navigation-pink">
     <div class="container">
       <div class="row">
-        <!--<div class="col l6 s12">
+        <div class="col l6 s12">
           <h5 class="white-text">About me</h5>
           <p class="grey-text text-lighten-4">My first encounter with the Internet was at my Grandpa's PC. Mesmerized by the AOL modem's connecting sound, I figured it would be great to get a job as 'something with the internet'. .</p>
-        </div>-->
-        <!--<div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>-->
+        </div>
         <div class="col l3 s12">
           <h5 class="white-text">Get in touch</h5>
           <ul>
@@ -190,11 +328,6 @@
           </ul>
         </div>
       </div>
-    </div>
-    <!--<div class="footer-copyright">
-      <div class="container">
-      <a class = "white-text">Valerie Fuchs 2017</a>
-      </div>-->
     </div>
   </footer>-->
 
