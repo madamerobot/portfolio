@@ -42,18 +42,27 @@ $("#card9").hide();
 
 $(document).ready(function () {
 
-  var classes = ["background-palms","background-beach","background-pool"];
+  /*var classes = ["background-palms","background-beach","background-pool"];  
+   var randomclass = classes[Math.floor(Math.random()*classes.length)];*/
+   $("#header2").on("click", function(){
+   
+    if ( $("body").hasClass("background-palms") ){
+      $("body").removeClass("background-palms")  
+      $("body").addClass("background-melon")
+    }
+     
+    else if ( $("body").hasClass("background-melon") ){
+       $("body").removeClass("background-melon")
+       $("body").addClass("background-pool")
+     }
 
-  //$(this).toggleClass('checked').siblings().removeClass('checked');//
+     else if ( $("body").hasClass("background-pool") ){
+       $("body").removeClass("background-pool")
+       $("body").addClass("background-palms")
+     }
 
-  $("#header2").on("click", function (){
-   var randomclass = classes[Math.floor(Math.random()*classes.length)];
-
-   $("body").removeClass("active");
-    $("body").addClass(randomclass);
-    console.log(randomclass);
-	});
-});/*closing: document ready function*/
+  })
+});
 
 /*Hiding all content tiles & showing carousel*/
 $(document).ready(function () {
