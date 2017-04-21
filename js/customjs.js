@@ -25,12 +25,13 @@ $("#card9").hide();
 //Change header copy on click
   $(document).ready(function () {
 
-  	var headercopy = ["Bullshit Bingo","Bitterballenland","Hagelslag"];
+  	var headercopy = ["Bullshit Bingo","Kaastostie","Hagelslag"];
 
 	$("#header1").on("click", function (){
 		var randomcopy = headercopy[Math.floor(Math.random()*headercopy.length)];
 		$("#headertext").text(randomcopy);
-		clearInterval(randomcopy);
+    console.log(randomcopy);
+		/*clearInterval(randomcopy);*/
         });//end of on click
 
 	});//*closing: document ready function*/
@@ -39,17 +40,18 @@ $("#card9").hide();
 
   //Change background on click
 
-  var backgroundimage = ["../img/beach.png","../img/palms.png","../img/beach2.png"];
-
 $(document).ready(function () {
+
+  var classes = ["background-palms","background-beach","background-pool"];
+
+  //$(this).toggleClass('checked').siblings().removeClass('checked');//
+
   $("#header2").on("click", function (){
-  	var randomimg = backgroundimage[Math.floor(Math.random()*backgroundimage.length)];
+   var randomclass = classes[Math.floor(Math.random()*classes.length)];
 
-    /*$("body").removeClass("background-style");
-    $("body").addClass("houses");
-
-    $("body").removeClass("background-style");
-    $("body").addClass("palms");*/
+   $("body").removeClass("active");
+    $("body").addClass(randomclass);
+    console.log(randomclass);
 	});
 });/*closing: document ready function*/
 

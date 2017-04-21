@@ -56,8 +56,16 @@ background-color: #e8b0d4;
 
 /*BACKGROUND STYLES*/
 
-.background-style {
+.background-palms {
 	background-image: url("../img/palms.png");
+}
+
+.background-pool {
+	background-image: url("../img/pool.png");
+}
+
+.background-beach {
+	background-image: url("../img/beach.png");
 }
 
 /*INTERACTIVE HEADER BUTTONS (BLACK)*/
