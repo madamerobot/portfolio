@@ -1,0 +1,126 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+/*FONTS*/
+@font-face {
+     font-family: Fipps;
+     src: url("../../fonts/Fipps-Regular.otf");
+}
+
+#light-font {
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+/*STANDARD ELEMENTS*/
+
+h1 {
+	font-family: Fipps;
+	text-transform: uppercase;
+	color: black;
+}
+
+h2 {
+	font-family: Fipps;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: Fipps;
+	text-transform: uppercase;
+}
+
+/*h5 {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 300;
+}*/
+
+/*COLORS*/
+
+.h-green {
+ color: #468c87;
+}
+
+.h-pink {
+ color: #d8abd7;
+}
+
+.background-pink {
+  background-color: #e8b0d4;
+}
+
+.h-lime {
+ color: #e6ea7c;
+}
+
+/*BACKGROUND STYLES*/
+
+.background-palms {
+	background-image: url("../../img/palms.png");
+}
+
+.background-pool {
+	background-image: url("../../img/pool.png");
+}
+
+.background-melon {
+	background-image: url("../../img/melon.png");
+}
+
+/*INTERACTIVE HEADER BUTTONS (BLACK)*/
+
+#headerbtn {
+	text-align: center;
+}
+
+/*Header Button*/
+#header1 {
+	background-color: black;
+}
+/*Header Button*/
+#header2 {
+	background-color: black;
+}
+/*Header Button*/
+#header3 {
+	background-color: black;
+}
+
+/*ICON SECTION*/
+
+.icon-block {
+  padding: 30px;
+  background: white;
+  text-align: center;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/*BUTTONS ON PORTFOLIO CARDS*/
+
+/*Blue Button*/
+#strategy {
+	background-color: #468c87;
+}
+/*Pink Button*/
+#web {
+	background-color: #d8abd7;
+}
+/*Lime Button*/
+#test {
+	background-color: #e6ea7c;
+}
+
+/*FOOTER*/
+#footer {
+	text-align: center;
+}
